@@ -1,5 +1,7 @@
 # Translate-Mass-Amounts-of-Text
-Uses unofficial google translate API for python to perform translate on a large quantity of text
+Uses unofficial google translate API for python to perform translate on a large quantity of text.
+
+Maintains coherency of text by using common english sentence endings when dividing text into chunks to be translated, such as: '!', '.', '?', '\n'
 
 Usage:
 
