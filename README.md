@@ -5,7 +5,7 @@ Maintains coherency of text by using common english sentence endings when dividi
 
 Usage:
 
-Converts an exmaple textfile in english to chinese
+Converts an example textfile in english to chinese
 
 ```
 python translate.py -f beemovie.txt -d zh-cn -o beemovieCN.txt 
