@@ -16,7 +16,7 @@ def main():
         #argParse.add_argument('-t', '--inputtext', action='store', type=str, help='Input text as a string')
         argParse.add_argument('-d', '--languagedest', action='store', type=str, help='Language destination, use language code')
         #argParse.add_argument('-s', '--languagesrc', action='store', type=str, help='Language Source, use language code')
-        argParse.add_argument('-l', '--listlanguagecode', action='version', version=str(LANGUAGES))
+        argParse.add_argument('-l', '--listlanguagecode', action='store', help=str(LANGUAGES))
         args = argParse.parse_args()
         if args.inputfile == None:
             print("Please provide an input text")
