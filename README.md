@@ -33,3 +33,7 @@ options:
 
 ```
 
+# Dislaimer
+
+This package is not an official library and is not associated with Google. This package is only developed for educational and test purposes, can be removed if desired. If you want to use a translate service on a commercial project use official Google Cloud Translate (https://cloud.google.com/translate/)
+ service.
